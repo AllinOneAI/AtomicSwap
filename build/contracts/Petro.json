@@ -1,0 +1,119 @@
+{
+  "contractName": "Petro",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/home/allinone/Proga/Solidity/AtomicSwap/contracts/Petro.sol\":\"Petro\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/allinone/Proga/Solidity/AtomicSwap/contracts/Petro.sol\":{\"keccak256\":\"0x99a60c0c3bcdc03a252c5a60c01125e2c57a7e3b231effdf91247943a26e8b84\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://acfb0420c0bef5cee2a56dd95ed81418b9891c120453ff4e20c438402e9a4245\",\"dweb:/ipfs/QmVJMZzaAGERWhmUqvyQ589ZvW5LejpgsAav1sYJiS83Du\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea26469706673582212200da373cade3c5fdd1b3513befce4748782377f86a85dd88618904d605e0ce37a64736f6c63430008110033",
+  "deployedBytecode": "0x6080604052600080fdfea26469706673582212200da373cade3c5fdd1b3513befce4748782377f86a85dd88618904d605e0ce37a64736f6c63430008110033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "57:20:1:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "57:20:1:-:0;;;;;",
+  "source": "//SPDX-License-Identifier: MIT\npragma solidity ^0.8.17;\n\ncontract Petro {\n\t\n}",
+  "sourcePath": "/home/allinone/Proga/Solidity/AtomicSwap/contracts/Petro.sol",
+  "ast": {
+    "absolutePath": "/home/allinone/Proga/Solidity/AtomicSwap/contracts/Petro.sol",
+    "exportedSymbols": {
+      "Petro": [
+        47
+      ]
+    },
+    "id": 48,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 46,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".17"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "31:24:1"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "Petro",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 47,
+        "linearizedBaseContracts": [
+          47
+        ],
+        "name": "Petro",
+        "nameLocation": "66:5:1",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 48,
+        "src": "57:20:1",
+        "usedErrors": []
+      }
+    ],
+    "src": "31:46:1"
+  },
+  "legacyAST": {
+    "absolutePath": "/home/allinone/Proga/Solidity/AtomicSwap/contracts/Petro.sol",
+    "exportedSymbols": {
+      "Petro": [
+        47
+      ]
+    },
+    "id": 48,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 46,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".17"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "31:24:1"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "Petro",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 47,
+        "linearizedBaseContracts": [
+          47
+        ],
+        "name": "Petro",
+        "nameLocation": "66:5:1",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 48,
+        "src": "57:20:1",
+        "usedErrors": []
+      }
+    ],
+    "src": "31:46:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.17+commit.8df45f5f.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.3.4",
+  "updatedAt": "2022-09-26T11:32:22.288Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}

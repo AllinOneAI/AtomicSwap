@@ -18,7 +18,7 @@ module.exports = {
        providerOrUrl: "https://goerli.infura.io/v3/67d27f10fa6d4dcdb7575f9ee8df4f5c",
 
       })
-    } 
+    }, 
      
    ropsten: {
      network_id: "3",

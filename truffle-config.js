@@ -15,8 +15,8 @@ module.exports = {
       //gasPrice: 10,
       provider: new HDWalletProvider({
         mnemonic: Mnemonic,
-       providerOrUrl: "https://goerli.infura.io/v3/67d27f10fa6d4dcdb7575f9ee8df4f5c",
-
+        providerOrUrl: "https://goerli.infura.io/v3/67d27f10fa6d4dcdb7575f9ee8df4f5c",
+        from: "0xA308d1d27e687ac3a2801f44bB061d4dE420D65F",
       })
     }, 
      
@@ -26,7 +26,7 @@ module.exports = {
       provider: new HDWalletProvider({
         mnemonic: Mnemonic,
        providerOrUrl: "https://ropsten.infura.io/v3/67d27f10fa6d4dcdb7575f9ee8df4f5c",
-
+       from: "0x6D6b1b7A2597252AaDB7987375721fDB09b34e91",
       })
     }  
   },

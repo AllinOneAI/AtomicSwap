@@ -1,6 +1,6 @@
 //SPDX-License-Identifier: MIT
 pragma solidity ^0.8.17;
-
+//secret: aurora
 contract Dmytro {
 	
 	uint256 public ammount = 0.5 ether;
@@ -30,12 +30,12 @@ contract Dmytro {
 		require(msg.value == 0.5 ether, "nie prawidlowy");
 		_;
 	}
-
+/*
 	modifier onlyAfter() {
 		require(status, "no-no");
 		_;
 	}
-
+*/
 	modifier onlyDmytro() {
 		require(msg.sender == dmytroAddress, "you are not Dmytro");
 		_;

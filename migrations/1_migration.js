@@ -1,5 +1,5 @@
-const iUseArchBtwERC20Token = artifacts.require("iUseArchBtwERC20Token");
+const Dmetro = artifacts.require("Dmetro");
 
 module.exports = function(deployer){
-    deployer.deploy(iUseArchBtwERC20Token, 1000);
+    deployer.deploy(Dmetro);
 }

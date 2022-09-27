@@ -10,17 +10,17 @@ contract Dmytro {
 	address public petroAddress;
 	address public dmytroAddress;
 	uint256 public timeTo;
-	bool public status; 
+	//bool public status; 
 
-	receive() external payable onlyAfter {
+	receive() external payable onlyHalf {
 		timeTo = block.timestamp + lockTime;
-		status = true;
+		//status = true;
 	}	
 
 	constructor(address _petroAddress, bytes32 _hash) {
 		dmytroAddress = msg.sender;
 		petroAddress = _petroAddress;
-		status = false; 
+		//status = false; 
 	 	hash = _hash;	
 
 	}
@@ -51,13 +51,13 @@ contract Dmytro {
 		require(block.timestamp < timeTo, "period expired");
 		require(keccak256(abi.encodePacked(_secret)) == hash, "Invalid secret");
 		payable(petroAddress).transfer(address(this).balance);
-		status = true;
+		//status = true;
 	}
 
 	function refund() external onlyDmytro {
 		require(block.timestamp > timeTo, "it is not time yet");
 		payable(dmytroAddress).transfer(address(this).balance);
-		status = true;
+		//status = true;
 	}
 
 }

@@ -13,7 +13,7 @@ contract Petro {
 	uint256 public timeTo;
 	//bool public status;
 
-	receive() external payable {
+	receive() external payable onlyOne {
 		timeTo = block.timestamp + lockTime;
 		//status = true;
 	}	
